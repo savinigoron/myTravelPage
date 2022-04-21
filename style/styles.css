@@ -1,0 +1,79 @@
+#hero{
+    height: 800px;
+    background-image: url("/images/places/bg-image1.jpg");
+    background-position: center;
+    background-size: cover;    
+}
+#hero-content{
+    width: 900px;
+    background-color: rgb(21, 19, 19, 0.7);
+    box-shadow: 2px 4px 8px rgb(103, 99, 99);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px auto;
+    position: relative;
+    top: 200px;
+}
+#hero-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+#hero-content a{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px gray;
+}
+#hero-content a:hover{
+    background-color: rgb(207, 207, 148);
+}
+#hightlight{
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(225 238 243), rgb(30 161 167));
+}
+#hightlight h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(44, 43, 43);
+    margin: 24px 0;
+}
+.destination{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.destination p{
+    margin: 20px 0;
+}
+.destination strong{
+    color: rgb(10, 106, 10);
+}
+.destination img{
+    height: 200px;
+    width: 300px;
+    box-shadow: 2px 4px 8px rgb(42, 41, 41);
+    border-radius: 10px;
+    object-fit: cover;
+}
+#destinations{
+    display: flex;
+   /* width: 90%;
+    margin: auto;
+    margin-bottom: 40px; */
+    text-align: center;
+    justify-content: space-evenly;
+}
